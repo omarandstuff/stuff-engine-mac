@@ -13,6 +13,8 @@
 		37DDF4031B93AB35002FE810 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF4021B93AB35002FE810 /* Images.xcassets */; };
 		37DDF4061B93AB35002FE810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF4041B93AB35002FE810 /* Main.storyboard */; };
 		37DDF4121B93AB35002FE810 /* Planetthing_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4111B93AB35002FE810 /* Planetthing_MacTests.m */; };
+		37DDF41C1B93AD1F002FE810 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DDF41B1B93AD1F002FE810 /* GameKit.framework */; };
+		37DDF41F1B93AD24002FE810 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DDF41E1B93AD24002FE810 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,9 @@
 		37DDF40B1B93AB35002FE810 /* Planetthing MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Planetthing MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DDF4101B93AB35002FE810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37DDF4111B93AB35002FE810 /* Planetthing_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Planetthing_MacTests.m; sourceTree = "<group>"; };
+		37DDF41B1B93AD1F002FE810 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		37DDF41D1B93AD1F002FE810 /* Planetthing Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Planetthing Mac.entitlements"; sourceTree = "<group>"; };
+		37DDF41E1B93AD24002FE810 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DDF41C1B93AD1F002FE810 /* GameKit.framework in Frameworks */,
+				37DDF41F1B93AD24002FE810 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +68,7 @@
 		37DDF3EC1B93AB35002FE810 = {
 			isa = PBXGroup;
 			children = (
+				37DDF4201B93AD93002FE810 /* Frameworks */,
 				37DDF3F71B93AB35002FE810 /* Planetthing Mac */,
 				37DDF40E1B93AB35002FE810 /* Planetthing MacTests */,
 				37DDF3F61B93AB35002FE810 /* Products */,
@@ -79,6 +87,7 @@
 		37DDF3F71B93AB35002FE810 /* Planetthing Mac */ = {
 			isa = PBXGroup;
 			children = (
+				37DDF41D1B93AD1F002FE810 /* Planetthing Mac.entitlements */,
 				37DDF3FA1B93AB35002FE810 /* AppDelegate.h */,
 				37DDF3FB1B93AB35002FE810 /* AppDelegate.m */,
 				37DDF3FF1B93AB35002FE810 /* ViewController.h */,
@@ -114,6 +123,15 @@
 				37DDF4101B93AB35002FE810 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37DDF4201B93AD93002FE810 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF41E1B93AD24002FE810 /* StoreKit.framework */,
+				37DDF41B1B93AD1F002FE810 /* GameKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +183,18 @@
 				TargetAttributes = {
 					37DDF3F41B93AB35002FE810 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4WT5U2SGE8;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					37DDF40A1B93AB35002FE810 = {
 						CreatedOnToolsVersion = 6.4;
@@ -334,10 +364,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Planetthing Mac/Planetthing Mac.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Planetthing Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -345,10 +379,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Planetthing Mac/Planetthing Mac.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Planetthing Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
