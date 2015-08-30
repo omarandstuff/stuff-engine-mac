@@ -16,6 +16,9 @@
 		37DDF41C1B93AD1F002FE810 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DDF41B1B93AD1F002FE810 /* GameKit.framework */; };
 		37DDF41F1B93AD24002FE810 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DDF41E1B93AD24002FE810 /* StoreKit.framework */; };
 		37DDF4231B93B0BD002FE810 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4221B93B0BD002FE810 /* WindowController.m */; };
+		37DDF42C1B93B1C8002FE810 /* IHgamecenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4271B93B1C8002FE810 /* IHgamecenter.m */; };
+		37DDF42D1B93B1C8002FE810 /* NSDataAES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4291B93B1C8002FE810 /* NSDataAES256.m */; };
+		37DDF42E1B93B1C8002FE810 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF42B1B93B1C8002FE810 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,13 @@
 		37DDF41E1B93AD24002FE810 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		37DDF4211B93B0BD002FE810 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
 		37DDF4221B93B0BD002FE810 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		37DDF4261B93B1C8002FE810 /* IHgamecenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IHgamecenter.h; path = "Planetthing Mac/IHgamecenter.h"; sourceTree = "<group>"; };
+		37DDF4271B93B1C8002FE810 /* IHgamecenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IHgamecenter.m; path = "Planetthing Mac/IHgamecenter.m"; sourceTree = "<group>"; };
+		37DDF4281B93B1C8002FE810 /* NSDataAES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDataAES256.h; path = "Planetthing Mac/NSDataAES256.h"; sourceTree = "<group>"; };
+		37DDF4291B93B1C8002FE810 /* NSDataAES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataAES256.m; path = "Planetthing Mac/NSDataAES256.m"; sourceTree = "<group>"; };
+		37DDF42A1B93B1C8002FE810 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "Planetthing Mac/Reachability.h"; sourceTree = "<group>"; };
+		37DDF42B1B93B1C8002FE810 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "Planetthing Mac/Reachability.m"; sourceTree = "<group>"; };
+		37DDF4301B93B1FB002FE810 /* GMglobals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GMglobals.h; path = "Planetthing Mac/GMglobals.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				37DDF4201B93AD93002FE810 /* Frameworks */,
+				37DDF42F1B93B1EC002FE810 /* Game */,
+				37DDF4241B93B1A4002FE810 /* Mac Helpers */,
 				37DDF3F71B93AB35002FE810 /* Planetthing Mac */,
 				37DDF40E1B93AB35002FE810 /* Planetthing MacTests */,
 				37DDF3F61B93AB35002FE810 /* Products */,
@@ -137,6 +149,35 @@
 				37DDF41B1B93AD1F002FE810 /* GameKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37DDF4241B93B1A4002FE810 /* Mac Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF4251B93B1AD002FE810 /* Dependencies */,
+				37DDF4261B93B1C8002FE810 /* IHgamecenter.h */,
+				37DDF4271B93B1C8002FE810 /* IHgamecenter.m */,
+			);
+			name = "Mac Helpers";
+			sourceTree = "<group>";
+		};
+		37DDF4251B93B1AD002FE810 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF4281B93B1C8002FE810 /* NSDataAES256.h */,
+				37DDF4291B93B1C8002FE810 /* NSDataAES256.m */,
+				37DDF42A1B93B1C8002FE810 /* Reachability.h */,
+				37DDF42B1B93B1C8002FE810 /* Reachability.m */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		37DDF42F1B93B1EC002FE810 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF4301B93B1FB002FE810 /* GMglobals.h */,
+			);
+			name = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DDF42D1B93B1C8002FE810 /* NSDataAES256.m in Sources */,
 				37DDF4011B93AB35002FE810 /* ViewController.m in Sources */,
+				37DDF42C1B93B1C8002FE810 /* IHgamecenter.m in Sources */,
+				37DDF42E1B93B1C8002FE810 /* Reachability.m in Sources */,
 				37DDF4231B93B0BD002FE810 /* WindowController.m in Sources */,
 				37DDF3FE1B93AB35002FE810 /* main.m in Sources */,
 				37DDF3FC1B93AB35002FE810 /* AppDelegate.m in Sources */,
@@ -376,6 +420,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Planetthing Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -391,6 +436,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Planetthing Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
