@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37DDF3FC1B93AB35002FE810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF3FB1B93AB35002FE810 /* AppDelegate.m */; };
+		37DDF3FE1B93AB35002FE810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF3FD1B93AB35002FE810 /* main.m */; };
+		37DDF4011B93AB35002FE810 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4001B93AB35002FE810 /* ViewController.m */; };
+		37DDF4031B93AB35002FE810 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF4021B93AB35002FE810 /* Images.xcassets */; };
+		37DDF4061B93AB35002FE810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF4041B93AB35002FE810 /* Main.storyboard */; };
+		37DDF4121B93AB35002FE810 /* Planetthing_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4111B93AB35002FE810 /* Planetthing_MacTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37DDF40C1B93AB35002FE810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37DDF3ED1B93AB35002FE810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37DDF3F41B93AB35002FE810;
+			remoteInfo = "Planetthing Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37DDF3F51B93AB35002FE810 /* Planetthing Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planetthing Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DDF3F91B93AB35002FE810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DDF3FA1B93AB35002FE810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37DDF3FB1B93AB35002FE810 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37DDF3FD1B93AB35002FE810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37DDF3FF1B93AB35002FE810 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37DDF4001B93AB35002FE810 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37DDF4021B93AB35002FE810 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37DDF4051B93AB35002FE810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37DDF40B1B93AB35002FE810 /* Planetthing MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Planetthing MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DDF4101B93AB35002FE810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DDF4111B93AB35002FE810 /* Planetthing_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Planetthing_MacTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37DDF3F21B93AB35002FE810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DDF4081B93AB35002FE810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37DDF3EC1B93AB35002FE810 = {
+			isa = PBXGroup;
+			children = (
+				37DDF3F71B93AB35002FE810 /* Planetthing Mac */,
+				37DDF40E1B93AB35002FE810 /* Planetthing MacTests */,
+				37DDF3F61B93AB35002FE810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37DDF3F61B93AB35002FE810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF3F51B93AB35002FE810 /* Planetthing Mac.app */,
+				37DDF40B1B93AB35002FE810 /* Planetthing MacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37DDF3F71B93AB35002FE810 /* Planetthing Mac */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF3FA1B93AB35002FE810 /* AppDelegate.h */,
+				37DDF3FB1B93AB35002FE810 /* AppDelegate.m */,
+				37DDF3FF1B93AB35002FE810 /* ViewController.h */,
+				37DDF4001B93AB35002FE810 /* ViewController.m */,
+				37DDF4021B93AB35002FE810 /* Images.xcassets */,
+				37DDF4041B93AB35002FE810 /* Main.storyboard */,
+				37DDF3F81B93AB35002FE810 /* Supporting Files */,
+			);
+			path = "Planetthing Mac";
+			sourceTree = "<group>";
+		};
+		37DDF3F81B93AB35002FE810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF3F91B93AB35002FE810 /* Info.plist */,
+				37DDF3FD1B93AB35002FE810 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37DDF40E1B93AB35002FE810 /* Planetthing MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF4111B93AB35002FE810 /* Planetthing_MacTests.m */,
+				37DDF40F1B93AB35002FE810 /* Supporting Files */,
+			);
+			path = "Planetthing MacTests";
+			sourceTree = "<group>";
+		};
+		37DDF40F1B93AB35002FE810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF4101B93AB35002FE810 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37DDF3F41B93AB35002FE810 /* Planetthing Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DDF4151B93AB35002FE810 /* Build configuration list for PBXNativeTarget "Planetthing Mac" */;
+			buildPhases = (
+				37DDF3F11B93AB35002FE810 /* Sources */,
+				37DDF3F21B93AB35002FE810 /* Frameworks */,
+				37DDF3F31B93AB35002FE810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Planetthing Mac";
+			productName = "Planetthing Mac";
+			productReference = 37DDF3F51B93AB35002FE810 /* Planetthing Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37DDF40A1B93AB35002FE810 /* Planetthing MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DDF4181B93AB35002FE810 /* Build configuration list for PBXNativeTarget "Planetthing MacTests" */;
+			buildPhases = (
+				37DDF4071B93AB35002FE810 /* Sources */,
+				37DDF4081B93AB35002FE810 /* Frameworks */,
+				37DDF4091B93AB35002FE810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DDF40D1B93AB35002FE810 /* PBXTargetDependency */,
+			);
+			name = "Planetthing MacTests";
+			productName = "Planetthing MacTests";
+			productReference = 37DDF40B1B93AB35002FE810 /* Planetthing MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37DDF3ED1B93AB35002FE810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Omar De Anda";
+				TargetAttributes = {
+					37DDF3F41B93AB35002FE810 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					37DDF40A1B93AB35002FE810 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 37DDF3F41B93AB35002FE810;
+					};
+				};
+			};
+			buildConfigurationList = 37DDF3F01B93AB35002FE810 /* Build configuration list for PBXProject "Planetthing Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37DDF3EC1B93AB35002FE810;
+			productRefGroup = 37DDF3F61B93AB35002FE810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37DDF3F41B93AB35002FE810 /* Planetthing Mac */,
+				37DDF40A1B93AB35002FE810 /* Planetthing MacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37DDF3F31B93AB35002FE810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DDF4031B93AB35002FE810 /* Images.xcassets in Resources */,
+				37DDF4061B93AB35002FE810 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DDF4091B93AB35002FE810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37DDF3F11B93AB35002FE810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DDF4011B93AB35002FE810 /* ViewController.m in Sources */,
+				37DDF3FE1B93AB35002FE810 /* main.m in Sources */,
+				37DDF3FC1B93AB35002FE810 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DDF4071B93AB35002FE810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DDF4121B93AB35002FE810 /* Planetthing_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37DDF40D1B93AB35002FE810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37DDF3F41B93AB35002FE810 /* Planetthing Mac */;
+			targetProxy = 37DDF40C1B93AB35002FE810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37DDF4041B93AB35002FE810 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DDF4051B93AB35002FE810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37DDF4131B93AB35002FE810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37DDF4141B93AB35002FE810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37DDF4161B93AB35002FE810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Planetthing Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37DDF4171B93AB35002FE810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Planetthing Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37DDF4191B93AB35002FE810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Planetthing MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planetthing Mac.app/Contents/MacOS/Planetthing Mac";
+			};
+			name = Debug;
+		};
+		37DDF41A1B93AB35002FE810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Planetthing MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planetthing Mac.app/Contents/MacOS/Planetthing Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37DDF3F01B93AB35002FE810 /* Build configuration list for PBXProject "Planetthing Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DDF4131B93AB35002FE810 /* Debug */,
+				37DDF4141B93AB35002FE810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DDF4151B93AB35002FE810 /* Build configuration list for PBXNativeTarget "Planetthing Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DDF4161B93AB35002FE810 /* Debug */,
+				37DDF4171B93AB35002FE810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37DDF4181B93AB35002FE810 /* Build configuration list for PBXNativeTarget "Planetthing MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DDF4191B93AB35002FE810 /* Debug */,
+				37DDF41A1B93AB35002FE810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37DDF3ED1B93AB35002FE810 /* Project object */;
+}
