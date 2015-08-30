@@ -15,6 +15,7 @@
 		37DDF4121B93AB35002FE810 /* Planetthing_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4111B93AB35002FE810 /* Planetthing_MacTests.m */; };
 		37DDF41C1B93AD1F002FE810 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DDF41B1B93AD1F002FE810 /* GameKit.framework */; };
 		37DDF41F1B93AD24002FE810 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DDF41E1B93AD24002FE810 /* StoreKit.framework */; };
+		37DDF4231B93B0BD002FE810 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4221B93B0BD002FE810 /* WindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		37DDF41B1B93AD1F002FE810 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		37DDF41D1B93AD1F002FE810 /* Planetthing Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Planetthing Mac.entitlements"; sourceTree = "<group>"; };
 		37DDF41E1B93AD24002FE810 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		37DDF4211B93B0BD002FE810 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		37DDF4221B93B0BD002FE810 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				37DDF3FB1B93AB35002FE810 /* AppDelegate.m */,
 				37DDF3FF1B93AB35002FE810 /* ViewController.h */,
 				37DDF4001B93AB35002FE810 /* ViewController.m */,
+				37DDF4211B93B0BD002FE810 /* WindowController.h */,
+				37DDF4221B93B0BD002FE810 /* WindowController.m */,
 				37DDF4021B93AB35002FE810 /* Images.xcassets */,
 				37DDF4041B93AB35002FE810 /* Main.storyboard */,
 				37DDF3F81B93AB35002FE810 /* Supporting Files */,
@@ -246,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37DDF4011B93AB35002FE810 /* ViewController.m in Sources */,
+				37DDF4231B93B0BD002FE810 /* WindowController.m in Sources */,
 				37DDF3FE1B93AB35002FE810 /* main.m in Sources */,
 				37DDF3FC1B93AB35002FE810 /* AppDelegate.m in Sources */,
 			);
