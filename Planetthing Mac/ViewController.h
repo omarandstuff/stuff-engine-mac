@@ -1,7 +1,9 @@
 #import <Cocoa/Cocoa.h>
+#import "GMmain.h"
 
-@interface ViewController : NSViewController
-
-
+@interface ViewController : NSOpenGLView
+{
+    CVDisplayLinkRef displayLink;
+}
 @end
 
