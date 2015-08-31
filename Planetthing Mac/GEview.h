@@ -12,6 +12,8 @@
 @property GLKVector3 BackgroundColor;
 @property float Opasity;
 @property (readonly)NSMutableDictionary* Layers;
+@property unsigned int Width;
+@property unsigned int Height;
 
 // -------------------------------------------- //
 // ------------------ Layers ------------------ //

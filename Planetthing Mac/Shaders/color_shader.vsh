@@ -1,5 +1,5 @@
 #version 330
-in vec3 positionCoord;
+layout (location = 0) in vec3 positionCoord;
 
 uniform mat4 modelViewProjectionMatrix;
 

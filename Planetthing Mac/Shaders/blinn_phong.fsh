@@ -54,9 +54,6 @@ void main()
     float shadow;
     float normalDir;
     
-    outputColor = vec4(1.0);
-    return;
-    
     
     // Surfice color from sampling the diffuse texture or taking the diffuce color.
     if(materialDiffuceMapEnabled)

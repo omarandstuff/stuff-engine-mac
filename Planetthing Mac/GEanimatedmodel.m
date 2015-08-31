@@ -109,9 +109,9 @@
     // Draw each mesh.
     for(GEMesh* mesh in m_meshes)
     {
-        m_blinnPhongShader.Material = mesh.Material;
+        m_textureShader.Material = mesh.Material;
         
-        [m_blinnPhongShader useProgram];
+        [m_textureShader useProgram];
         [mesh render:GL_TRIANGLES];
     }
     
@@ -174,9 +174,9 @@
         for(GEMesh* mesh in m_meshes)
             [mesh generateBuffers];
         
-        [self resetPose];
-        
         Ready = true;
+        
+        [self resetPose];
     }
 }
 

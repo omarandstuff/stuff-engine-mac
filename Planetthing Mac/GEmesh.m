@@ -118,8 +118,10 @@
     }
     
     // Bind the vertex buffer and refill it with data.
-    glBindBuffer(GL_ARRAY_BUFFER, m_vertexBufferID);
-    glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(float) * Vertices.count * 8, m_vertexBuffer);
+    dispatch_async(dispatch_get_main_queue(), ^{
+        glBindBuffer(GL_ARRAY_BUFFER, m_vertexBufferID);
+        glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(float) * Vertices.count * 8, m_vertexBuffer);
+    });
 }
 
 - (void)generateBuffers
@@ -167,7 +169,6 @@
     // Unbind everything.
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
-    glBindVertexArray(0);
 }
 
 @end

@@ -1,7 +1,7 @@
 #version 330
-in vec3 positionCoord;
-in vec2 textureCoord;
-in vec3 normalCoord;
+layout (location = 0) in vec3 positionCoord;
+layout (location = 1) in vec2 textureCoord;
+layout (location = 2) in vec3 normalCoord;
 
 uniform mat4 modelViewProjectionMatrix;
 uniform vec2 materialTextureCompression;

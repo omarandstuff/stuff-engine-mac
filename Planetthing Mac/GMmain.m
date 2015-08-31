@@ -62,8 +62,8 @@
 
 - (void)setUp
 {
-//    m_testView = [GEView new];
-//    m_testView.BackgroundColor = color_banana;
+    m_testView = [GEView new];
+    m_testView.BackgroundColor = color_banana;
 //    
 //    GELight* light = [GELight new];
 //    //light.LightType = GE_LIGHT_SPOT;
@@ -82,19 +82,19 @@
 //    [m_testView addLight:light];
 //    //[m_testView addLight:light2];
 //
-//    m_testLayer = [m_testView addLayerWithName:@"TestLayer"];
+    m_testLayer = [m_testView addLayerWithName:@"TestLayer"];
 //    
-//    GEAnimatedModel* model = [GEAnimatedModel new];
-//    [model loadModelWithFileName:@"Bob Lamp/bob_lamp.md5mesh"];
-//    model.RenderBoundingBox = true;
+    GEAnimatedModel* model = [GEAnimatedModel new];
+    [model loadModelWithFileName:@"Bob Lamp/bob_lamp.md5mesh"];
+    model.RenderBoundingBox = true;
 //    
-//    GEAnimation* animation = [GEAnimation new];
-//    [animation loadAnimationWithFileName:@"Bob Lamp/bob_lamp.md5anim"];
-//    [animation addSelector:model];
-//    
-//    //[animation Play];
-//    
-//    [m_testLayer addObject:model];
+    GEAnimation* animation = [GEAnimation new];
+    [animation loadAnimationWithFileName:@"Bob Lamp/bob_lamp.md5anim"];
+    [animation addSelector:model];
+
+    [animation Play];
+    
+    [m_testLayer addObject:model];
     
     m_fullScreen = [GEFullScreen sharedIntance];
     m_texture = [GETexture textureWithFileName:@"Test.png"];
@@ -129,16 +129,17 @@
 
 - (void)render
 {
-    //[m_testView render];
-    glBindFramebuffer(GL_FRAMEBUFFER, 0);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    [m_testView render];
+    //glBindFramebuffer(GL_FRAMEBUFFER, 0);
+    //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     
-    [m_fullScreen render];
+    //[m_fullScreen render];
 }
 
 - (void)layoutForWidth:(float)width AndHeight:(float)height
 {
-    
+    m_testView.Width = width;
+    m_testView.Height = height;
 }
 
 @end

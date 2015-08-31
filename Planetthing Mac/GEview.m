@@ -19,6 +19,8 @@
 @synthesize BackgroundColor;
 @synthesize Opasity;
 @synthesize Layers;
+@synthesize Width;
+@synthesize Height;
 
 // ------------------------------------------------------------------------------ //
 // -------------------------- Initialization and Set up ------------------------- //
@@ -89,10 +91,13 @@
     // To screen render.
     glBindFramebuffer(GL_FRAMEBUFFER, 0);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glViewport(0, 0, Width, Height);
     
-    GLKMatrix4 matrix = GLKMatrix4Multiply(GLKMatrix4MakePerspective(GLKMathDegreesToRadians(45.0f), 320.0f/480.0f, 0.1f, 1000.0f), GLKMatrix4MakeLookAt(0.0f, 90.0f, 120.0f, 0.0f, 30.0f, 0.0f, 0.0f, 1.0f, 0.0f));
+    GLKMatrix4 matrix = GLKMatrix4Multiply(GLKMatrix4MakePerspective(GLKMathDegreesToRadians(45.0f), (float)Width/(float)Height, 0.1f, 1000.0f), GLKMatrix4MakeLookAt(0.0f, 90.0f, 120.0f, 0.0f, 30.0f, 0.0f, 0.0f, 1.0f, 0.0f));
     
-    m_blinnPhongShader.ModelViewProjectionMatrix = &matrix;
+    glCullFace(GL_FRONT);
+    
+    m_textureShader.ModelViewProjectionMatrix = &matrix;
     m_blinnPhongShader.Lights = m_lights;
     m_colorShader.ModelViewProjectionMatrix = &matrix;
     
