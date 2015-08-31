@@ -2,9 +2,11 @@
 
 @interface GMmain()
 {
-    //GEView* m_testView;
-    //GELayer* m_testLayer;
+    GEView* m_testView;
+    GELayer* m_testLayer;
     IHGameCenter* m_gameCenter;
+    GEFullScreen* m_fullScreen;
+    GETexture* m_texture;
 }
 
 - (void)setUp;
@@ -44,7 +46,7 @@
         [[GEUpdateCaller sharedIntance] addRenderableSelector:self];
         
         // Game Center
-        m_gameCenter = [IHGameCenter sharedIntance];
+        //m_gameCenter = [IHGameCenter sharedIntance];
         
         // Initial setup.
         [self setUp];
@@ -60,38 +62,43 @@
 
 - (void)setUp
 {
-    //m_testView = [GEView new];
-    //m_testView.BackgroundColor = color_banana;
+//    m_testView = [GEView new];
+//    m_testView.BackgroundColor = color_banana;
+//    
+//    GELight* light = [GELight new];
+//    //light.LightType = GE_LIGHT_SPOT;
+//    light.Position = GLKVector3Make(-100.0f, 60.0f, 10.0f);
+//    //light.Direction = GLKVector3Make(0.0f, 30.0f, 0.0f);
+//    light.Intensity = 0.5f;
+//    light.CastShadows = true;
+//    
+//    GELight* light2 = [GELight new];
+//    //light2.LightType = GE_LIGHT_POINT;
+//    light2.Position = GLKVector3Make(0.0f, 100.0f, -20.0f);
+//    //light2.DiffuseColor = GLKVector3Make(0.0f, 0.0f, 1.0f);
+//    light2.Intensity = 1.0f;
+//    light2.CastShadows = true;
+//    
+//    [m_testView addLight:light];
+//    //[m_testView addLight:light2];
+//
+//    m_testLayer = [m_testView addLayerWithName:@"TestLayer"];
+//    
+//    GEAnimatedModel* model = [GEAnimatedModel new];
+//    [model loadModelWithFileName:@"Bob Lamp/bob_lamp.md5mesh"];
+//    model.RenderBoundingBox = true;
+//    
+//    GEAnimation* animation = [GEAnimation new];
+//    [animation loadAnimationWithFileName:@"Bob Lamp/bob_lamp.md5anim"];
+//    [animation addSelector:model];
+//    
+//    //[animation Play];
+//    
+//    [m_testLayer addObject:model];
     
-    //GELight* light = [GELight new];
-    //light.LightType = GE_LIGHT_SPOT;
-    //light.Position = GLKVector3Make(-100.0f, 60.0f, 10.0f);
-    //light.Direction = GLKVector3Make(0.0f, 30.0f, 0.0f);
-    //light.Intensity = 0.5f;
-    //light.CastShadows = true;
-    
-    //GELight* light2 = [GELight new];
-    //light2.LightType = GE_LIGHT_POINT;
-    //light2.Position = GLKVector3Make(0.0f, 100.0f, -20.0f);
-    //light2.DiffuseColor = GLKVector3Make(0.0f, 0.0f, 1.0f);
-    //light2.Intensity = 1.0f;
-    //light2.CastShadows = true;
-    
-    //[m_testView addLight:light];
-    //[m_testView addLight:light2];
-    
-    //m_testLayer = [m_testView addLayerWithName:@"TestLayer"];
-    
-    //GEAnimatedModel* model = [GEAnimatedModel new];
-    //[model loadModelWithFileName:@"Bob Lamp/bob_lamp.md5mesh"];
-    //model.RenderBoundingBox = true;
-    //GEAnimation* animation = [GEAnimation new];
-    //[animation loadAnimationWithFileName:@"Bob Lamp/bob_lamp.md5anim"];
-    //[animation addSelector:model];
-    
-    //[animation Play];
-    
-    //[m_testLayer addObject:model];
+    m_fullScreen = [GEFullScreen sharedIntance];
+    m_texture = [GETexture textureWithFileName:@"hotwasser_512_512.png"];
+    m_fullScreen.TextureID = m_texture.TextureID;
 }
 
 
@@ -122,8 +129,11 @@
 
 - (void)render
 {
-    glClearColor(1.0f, 0.5f, 0.2f, 1.0f);
+    //[m_testView render];
+    glBindFramebuffer(GL_FRAMEBUFFER, 0);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    
+    [m_fullScreen render];
 }
 
 - (void)layoutForWidth:(float)width AndHeight:(float)height

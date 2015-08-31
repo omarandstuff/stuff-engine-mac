@@ -1,19 +1,22 @@
-#import "IHgamecenter.h"
-#import "GEupdatecaller.h"
-#import "GEview.h"
+#import "GEshader.h"
 
-@interface GMmain : NSObject <GEUpdateProtocol, GERenderProtocol>
+@interface GEFullScreenShader : GEShader
 
 // -------------------------------------------- //
 // ---------------- Properties ---------------- //
 // -------------------------------------------- //
 #pragma mark Properties
-
+@property GLuint TextureID;
 
 // -------------------------------------------- //
 // ----------------- Singleton ---------------- //
 // -------------------------------------------- //
-#pragma mark Sngleton
 + (instancetype)sharedIntance;
+
+// -------------------------------------------- //
+// ---------------- Use Program --------------- //
+// -------------------------------------------- //
+#pragma mark Use Program
+- (void)useProgram;
 
 @end

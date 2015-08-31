@@ -21,6 +21,41 @@
 		37DDF42E1B93B1C8002FE810 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF42B1B93B1C8002FE810 /* Reachability.m */; };
 		37DDF43B1B93BDC8002FE810 /* GMmain.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF43A1B93BDC8002FE810 /* GMmain.m */; };
 		37DDF4431B93BE2F002FE810 /* GEupdatecaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4421B93BE2F002FE810 /* GEupdatecaller.m */; };
+		37DDF4511B93CA33002FE810 /* blinn_phong.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF4471B93CA33002FE810 /* blinn_phong.fsh */; };
+		37DDF4521B93CA33002FE810 /* blinn_phong.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF4481B93CA33002FE810 /* blinn_phong.vsh */; };
+		37DDF4531B93CA33002FE810 /* color_shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF4491B93CA33002FE810 /* color_shader.fsh */; };
+		37DDF4541B93CA33002FE810 /* color_shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF44A1B93CA33002FE810 /* color_shader.vsh */; };
+		37DDF4551B93CA33002FE810 /* depth_shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF44B1B93CA33002FE810 /* depth_shader.fsh */; };
+		37DDF4561B93CA33002FE810 /* depth_shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF44C1B93CA33002FE810 /* depth_shader.vsh */; };
+		37DDF4571B93CA33002FE810 /* fullscreen_shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF44D1B93CA33002FE810 /* fullscreen_shader.fsh */; };
+		37DDF4581B93CA33002FE810 /* fullscreen_shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF44E1B93CA33002FE810 /* fullscreen_shader.vsh */; };
+		37DDF4591B93CA33002FE810 /* texture_shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF44F1B93CA33002FE810 /* texture_shader.fsh */; };
+		37DDF45A1B93CA33002FE810 /* texture_shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF4501B93CA33002FE810 /* texture_shader.vsh */; };
+		37DDF45F1B93CA72002FE810 /* Bob Lamp in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF45E1B93CA72002FE810 /* Bob Lamp */; };
+		37DDF4611B93CA88002FE810 /* hotwasser_512_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF4601B93CA88002FE810 /* hotwasser_512_512.png */; };
+		37DDF4671B93CAE4002FE810 /* GEshader.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4641B93CAE4002FE810 /* GEshader.m */; };
+		37DDF4681B93CAE4002FE810 /* GEtextureshader.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4661B93CAE4002FE810 /* GEtextureshader.m */; };
+		37DDF47C1B93CB32002FE810 /* GEbound.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF46B1B93CB32002FE810 /* GEbound.m */; };
+		37DDF47D1B93CB32002FE810 /* GEboundingbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF46D1B93CB32002FE810 /* GEboundingbox.m */; };
+		37DDF47E1B93CB32002FE810 /* GEjoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF46F1B93CB32002FE810 /* GEjoint.m */; };
+		37DDF47F1B93CB32002FE810 /* GEmaterial.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4711B93CB32002FE810 /* GEmaterial.m */; };
+		37DDF4801B93CB32002FE810 /* GEmesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4731B93CB32002FE810 /* GEmesh.m */; };
+		37DDF4811B93CB32002FE810 /* GEtexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4751B93CB32002FE810 /* GEtexture.m */; };
+		37DDF4821B93CB32002FE810 /* GEtriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4771B93CB32002FE810 /* GEtriangle.m */; };
+		37DDF4831B93CB32002FE810 /* GEvertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4791B93CB32002FE810 /* GEvertex.m */; };
+		37DDF4841B93CB32002FE810 /* GEweight.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF47B1B93CB32002FE810 /* GEweight.m */; };
+		37DDF4881B93CD1A002FE810 /* GEframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4871B93CD1A002FE810 /* GEframe.m */; };
+		37DDF48B1B93CD8E002FE810 /* GEanimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF48A1B93CD8E002FE810 /* GEanimation.m */; };
+		37DDF4911B93CDB4002FE810 /* GEanimatedmodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF48E1B93CDB4002FE810 /* GEanimatedmodel.m */; };
+		37DDF4921B93CDB4002FE810 /* GElight.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4901B93CDB4002FE810 /* GElight.m */; };
+		37DDF49B1B93CDDA002FE810 /* GEblinnphongshader.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4941B93CDDA002FE810 /* GEblinnphongshader.m */; };
+		37DDF49C1B93CDDA002FE810 /* GEcolorshader.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4961B93CDDA002FE810 /* GEcolorshader.m */; };
+		37DDF49D1B93CDDA002FE810 /* GEdepthShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4981B93CDDA002FE810 /* GEdepthShader.m */; };
+		37DDF49E1B93CDDA002FE810 /* GEfullscreenshader.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF49A1B93CDDA002FE810 /* GEfullscreenshader.m */; };
+		37DDF4A81B93CE0B002FE810 /* GEfbo.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4A11B93CE0B002FE810 /* GEfbo.m */; };
+		37DDF4A91B93CE0B002FE810 /* GEfullscreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4A31B93CE0B002FE810 /* GEfullscreen.m */; };
+		37DDF4AA1B93CE0B002FE810 /* GElayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4A51B93CE0B002FE810 /* GElayer.m */; };
+		37DDF4AB1B93CE0B002FE810 /* GEview.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4A71B93CE0B002FE810 /* GEview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +97,65 @@
 		37DDF43A1B93BDC8002FE810 /* GMmain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMmain.m; path = "Planetthing Mac/GMmain.m"; sourceTree = "<group>"; };
 		37DDF4411B93BE2F002FE810 /* GEupdatecaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEupdatecaller.h; path = "Planetthing Mac/GEupdatecaller.h"; sourceTree = "<group>"; };
 		37DDF4421B93BE2F002FE810 /* GEupdatecaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEupdatecaller.m; path = "Planetthing Mac/GEupdatecaller.m"; sourceTree = "<group>"; };
+		37DDF4471B93CA33002FE810 /* blinn_phong.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = blinn_phong.fsh; path = "Planetthing Mac/Shaders/blinn_phong.fsh"; sourceTree = "<group>"; };
+		37DDF4481B93CA33002FE810 /* blinn_phong.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = blinn_phong.vsh; path = "Planetthing Mac/Shaders/blinn_phong.vsh"; sourceTree = "<group>"; };
+		37DDF4491B93CA33002FE810 /* color_shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = color_shader.fsh; path = "Planetthing Mac/Shaders/color_shader.fsh"; sourceTree = "<group>"; };
+		37DDF44A1B93CA33002FE810 /* color_shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = color_shader.vsh; path = "Planetthing Mac/Shaders/color_shader.vsh"; sourceTree = "<group>"; };
+		37DDF44B1B93CA33002FE810 /* depth_shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = depth_shader.fsh; path = "Planetthing Mac/Shaders/depth_shader.fsh"; sourceTree = "<group>"; };
+		37DDF44C1B93CA33002FE810 /* depth_shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = depth_shader.vsh; path = "Planetthing Mac/Shaders/depth_shader.vsh"; sourceTree = "<group>"; };
+		37DDF44D1B93CA33002FE810 /* fullscreen_shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = fullscreen_shader.fsh; path = "Planetthing Mac/Shaders/fullscreen_shader.fsh"; sourceTree = "<group>"; };
+		37DDF44E1B93CA33002FE810 /* fullscreen_shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = fullscreen_shader.vsh; path = "Planetthing Mac/Shaders/fullscreen_shader.vsh"; sourceTree = "<group>"; };
+		37DDF44F1B93CA33002FE810 /* texture_shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = texture_shader.fsh; path = "Planetthing Mac/Shaders/texture_shader.fsh"; sourceTree = "<group>"; };
+		37DDF4501B93CA33002FE810 /* texture_shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = texture_shader.vsh; path = "Planetthing Mac/Shaders/texture_shader.vsh"; sourceTree = "<group>"; };
+		37DDF45E1B93CA72002FE810 /* Bob Lamp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Bob Lamp"; path = "Planetthing Mac/Resources/Models/Bob Lamp"; sourceTree = "<group>"; };
+		37DDF4601B93CA88002FE810 /* hotwasser_512_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hotwasser_512_512.png; path = "Planetthing Mac/Resources/Images/hotwasser_512_512.png"; sourceTree = "<group>"; };
+		37DDF4631B93CAE4002FE810 /* GEshader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEshader.h; path = "Planetthing Mac/GEshader.h"; sourceTree = "<group>"; };
+		37DDF4641B93CAE4002FE810 /* GEshader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEshader.m; path = "Planetthing Mac/GEshader.m"; sourceTree = "<group>"; };
+		37DDF4651B93CAE4002FE810 /* GEtextureshader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEtextureshader.h; path = "Planetthing Mac/GEtextureshader.h"; sourceTree = "<group>"; };
+		37DDF4661B93CAE4002FE810 /* GEtextureshader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEtextureshader.m; path = "Planetthing Mac/GEtextureshader.m"; sourceTree = "<group>"; };
+		37DDF46A1B93CB32002FE810 /* GEbound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEbound.h; path = "Planetthing Mac/GEbound.h"; sourceTree = "<group>"; };
+		37DDF46B1B93CB32002FE810 /* GEbound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEbound.m; path = "Planetthing Mac/GEbound.m"; sourceTree = "<group>"; };
+		37DDF46C1B93CB32002FE810 /* GEboundingbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEboundingbox.h; path = "Planetthing Mac/GEboundingbox.h"; sourceTree = "<group>"; };
+		37DDF46D1B93CB32002FE810 /* GEboundingbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEboundingbox.m; path = "Planetthing Mac/GEboundingbox.m"; sourceTree = "<group>"; };
+		37DDF46E1B93CB32002FE810 /* GEjoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEjoint.h; path = "Planetthing Mac/GEjoint.h"; sourceTree = "<group>"; };
+		37DDF46F1B93CB32002FE810 /* GEjoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEjoint.m; path = "Planetthing Mac/GEjoint.m"; sourceTree = "<group>"; };
+		37DDF4701B93CB32002FE810 /* GEmaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEmaterial.h; path = "Planetthing Mac/GEmaterial.h"; sourceTree = "<group>"; };
+		37DDF4711B93CB32002FE810 /* GEmaterial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEmaterial.m; path = "Planetthing Mac/GEmaterial.m"; sourceTree = "<group>"; };
+		37DDF4721B93CB32002FE810 /* GEmesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEmesh.h; path = "Planetthing Mac/GEmesh.h"; sourceTree = "<group>"; };
+		37DDF4731B93CB32002FE810 /* GEmesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEmesh.m; path = "Planetthing Mac/GEmesh.m"; sourceTree = "<group>"; };
+		37DDF4741B93CB32002FE810 /* GEtexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEtexture.h; path = "Planetthing Mac/GEtexture.h"; sourceTree = "<group>"; };
+		37DDF4751B93CB32002FE810 /* GEtexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEtexture.m; path = "Planetthing Mac/GEtexture.m"; sourceTree = "<group>"; };
+		37DDF4761B93CB32002FE810 /* GEtriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEtriangle.h; path = "Planetthing Mac/GEtriangle.h"; sourceTree = "<group>"; };
+		37DDF4771B93CB32002FE810 /* GEtriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEtriangle.m; path = "Planetthing Mac/GEtriangle.m"; sourceTree = "<group>"; };
+		37DDF4781B93CB32002FE810 /* GEvertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEvertex.h; path = "Planetthing Mac/GEvertex.h"; sourceTree = "<group>"; };
+		37DDF4791B93CB32002FE810 /* GEvertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEvertex.m; path = "Planetthing Mac/GEvertex.m"; sourceTree = "<group>"; };
+		37DDF47A1B93CB32002FE810 /* GEweight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEweight.h; path = "Planetthing Mac/GEweight.h"; sourceTree = "<group>"; };
+		37DDF47B1B93CB32002FE810 /* GEweight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEweight.m; path = "Planetthing Mac/GEweight.m"; sourceTree = "<group>"; };
+		37DDF4861B93CD1A002FE810 /* GEframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEframe.h; path = "Planetthing Mac/GEframe.h"; sourceTree = "<group>"; };
+		37DDF4871B93CD1A002FE810 /* GEframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEframe.m; path = "Planetthing Mac/GEframe.m"; sourceTree = "<group>"; };
+		37DDF4891B93CD8E002FE810 /* GEanimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEanimation.h; path = "Planetthing Mac/GEanimation.h"; sourceTree = "<group>"; };
+		37DDF48A1B93CD8E002FE810 /* GEanimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEanimation.m; path = "Planetthing Mac/GEanimation.m"; sourceTree = "<group>"; };
+		37DDF48D1B93CDB4002FE810 /* GEanimatedmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEanimatedmodel.h; path = "Planetthing Mac/GEanimatedmodel.h"; sourceTree = "<group>"; };
+		37DDF48E1B93CDB4002FE810 /* GEanimatedmodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEanimatedmodel.m; path = "Planetthing Mac/GEanimatedmodel.m"; sourceTree = "<group>"; };
+		37DDF48F1B93CDB4002FE810 /* GElight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GElight.h; path = "Planetthing Mac/GElight.h"; sourceTree = "<group>"; };
+		37DDF4901B93CDB4002FE810 /* GElight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GElight.m; path = "Planetthing Mac/GElight.m"; sourceTree = "<group>"; };
+		37DDF4931B93CDDA002FE810 /* GEblinnphongshader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEblinnphongshader.h; path = "Planetthing Mac/GEblinnphongshader.h"; sourceTree = "<group>"; };
+		37DDF4941B93CDDA002FE810 /* GEblinnphongshader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEblinnphongshader.m; path = "Planetthing Mac/GEblinnphongshader.m"; sourceTree = "<group>"; };
+		37DDF4951B93CDDA002FE810 /* GEcolorshader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEcolorshader.h; path = "Planetthing Mac/GEcolorshader.h"; sourceTree = "<group>"; };
+		37DDF4961B93CDDA002FE810 /* GEcolorshader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEcolorshader.m; path = "Planetthing Mac/GEcolorshader.m"; sourceTree = "<group>"; };
+		37DDF4971B93CDDA002FE810 /* GEdepthShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEdepthShader.h; path = "Planetthing Mac/GEdepthShader.h"; sourceTree = "<group>"; };
+		37DDF4981B93CDDA002FE810 /* GEdepthShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEdepthShader.m; path = "Planetthing Mac/GEdepthShader.m"; sourceTree = "<group>"; };
+		37DDF4991B93CDDA002FE810 /* GEfullscreenshader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEfullscreenshader.h; path = "Planetthing Mac/GEfullscreenshader.h"; sourceTree = "<group>"; };
+		37DDF49A1B93CDDA002FE810 /* GEfullscreenshader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEfullscreenshader.m; path = "Planetthing Mac/GEfullscreenshader.m"; sourceTree = "<group>"; };
+		37DDF4A01B93CE0B002FE810 /* GEfbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEfbo.h; path = "Planetthing Mac/GEfbo.h"; sourceTree = "<group>"; };
+		37DDF4A11B93CE0B002FE810 /* GEfbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEfbo.m; path = "Planetthing Mac/GEfbo.m"; sourceTree = "<group>"; };
+		37DDF4A21B93CE0B002FE810 /* GEfullscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEfullscreen.h; path = "Planetthing Mac/GEfullscreen.h"; sourceTree = "<group>"; };
+		37DDF4A31B93CE0B002FE810 /* GEfullscreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEfullscreen.m; path = "Planetthing Mac/GEfullscreen.m"; sourceTree = "<group>"; };
+		37DDF4A41B93CE0B002FE810 /* GElayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GElayer.h; path = "Planetthing Mac/GElayer.h"; sourceTree = "<group>"; };
+		37DDF4A51B93CE0B002FE810 /* GElayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GElayer.m; path = "Planetthing Mac/GElayer.m"; sourceTree = "<group>"; };
+		37DDF4A61B93CE0B002FE810 /* GEview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEview.h; path = "Planetthing Mac/GEview.h"; sourceTree = "<group>"; };
+		37DDF4A71B93CE0B002FE810 /* GEview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEview.m; path = "Planetthing Mac/GEview.m"; sourceTree = "<group>"; };
+		37DDF4AC1B93D66D002FE810 /* GEcommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GEcommon.h; path = "Planetthing Mac/GEcommon.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,13 +181,15 @@
 		37DDF3EC1B93AB35002FE810 = {
 			isa = PBXGroup;
 			children = (
-				37DDF43C1B93BDDE002FE810 /* GE Classes */,
 				37DDF4201B93AD93002FE810 /* Frameworks */,
 				37DDF42F1B93B1EC002FE810 /* Game */,
+				37DDF43C1B93BDDE002FE810 /* GE Classes */,
 				37DDF4241B93B1A4002FE810 /* Mac Helpers */,
 				37DDF3F71B93AB35002FE810 /* Planetthing Mac */,
 				37DDF40E1B93AB35002FE810 /* Planetthing MacTests */,
 				37DDF3F61B93AB35002FE810 /* Products */,
+				37DDF4461B93CA23002FE810 /* Resources */,
+				37DDF4451B93C9F8002FE810 /* Shaders */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,7 +288,12 @@
 		37DDF43C1B93BDDE002FE810 /* GE Classes */ = {
 			isa = PBXGroup;
 			children = (
+				37DDF4851B93CD10002FE810 /* Animation */,
+				37DDF4691B93CAFC002FE810 /* Object Support */,
+				37DDF48C1B93CDA9002FE810 /* Objects */,
+				37DDF4621B93CAD7002FE810 /* Shaders */,
 				37DDF43D1B93BDE7002FE810 /* Support */,
+				37DDF49F1B93CDF6002FE810 /* View */,
 			);
 			name = "GE Classes";
 			sourceTree = "<group>";
@@ -200,10 +301,142 @@
 		37DDF43D1B93BDE7002FE810 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				37DDF4AC1B93D66D002FE810 /* GEcommon.h */,
 				37DDF4411B93BE2F002FE810 /* GEupdatecaller.h */,
 				37DDF4421B93BE2F002FE810 /* GEupdatecaller.m */,
 			);
 			name = Support;
+			sourceTree = "<group>";
+		};
+		37DDF4451B93C9F8002FE810 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF4471B93CA33002FE810 /* blinn_phong.fsh */,
+				37DDF4481B93CA33002FE810 /* blinn_phong.vsh */,
+				37DDF4491B93CA33002FE810 /* color_shader.fsh */,
+				37DDF44A1B93CA33002FE810 /* color_shader.vsh */,
+				37DDF44B1B93CA33002FE810 /* depth_shader.fsh */,
+				37DDF44C1B93CA33002FE810 /* depth_shader.vsh */,
+				37DDF44D1B93CA33002FE810 /* fullscreen_shader.fsh */,
+				37DDF44E1B93CA33002FE810 /* fullscreen_shader.vsh */,
+				37DDF44F1B93CA33002FE810 /* texture_shader.fsh */,
+				37DDF4501B93CA33002FE810 /* texture_shader.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		37DDF4461B93CA23002FE810 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF45B1B93CA45002FE810 /* Fonts */,
+				37DDF45D1B93CA55002FE810 /* Images */,
+				37DDF45C1B93CA4E002FE810 /* Models */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		37DDF45B1B93CA45002FE810 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		37DDF45C1B93CA4E002FE810 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF45E1B93CA72002FE810 /* Bob Lamp */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		37DDF45D1B93CA55002FE810 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF4601B93CA88002FE810 /* hotwasser_512_512.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		37DDF4621B93CAD7002FE810 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF4931B93CDDA002FE810 /* GEblinnphongshader.h */,
+				37DDF4941B93CDDA002FE810 /* GEblinnphongshader.m */,
+				37DDF4951B93CDDA002FE810 /* GEcolorshader.h */,
+				37DDF4961B93CDDA002FE810 /* GEcolorshader.m */,
+				37DDF4971B93CDDA002FE810 /* GEdepthShader.h */,
+				37DDF4981B93CDDA002FE810 /* GEdepthShader.m */,
+				37DDF4991B93CDDA002FE810 /* GEfullscreenshader.h */,
+				37DDF49A1B93CDDA002FE810 /* GEfullscreenshader.m */,
+				37DDF4631B93CAE4002FE810 /* GEshader.h */,
+				37DDF4641B93CAE4002FE810 /* GEshader.m */,
+				37DDF4651B93CAE4002FE810 /* GEtextureshader.h */,
+				37DDF4661B93CAE4002FE810 /* GEtextureshader.m */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		37DDF4691B93CAFC002FE810 /* Object Support */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF46A1B93CB32002FE810 /* GEbound.h */,
+				37DDF46B1B93CB32002FE810 /* GEbound.m */,
+				37DDF46C1B93CB32002FE810 /* GEboundingbox.h */,
+				37DDF46D1B93CB32002FE810 /* GEboundingbox.m */,
+				37DDF46E1B93CB32002FE810 /* GEjoint.h */,
+				37DDF46F1B93CB32002FE810 /* GEjoint.m */,
+				37DDF4701B93CB32002FE810 /* GEmaterial.h */,
+				37DDF4711B93CB32002FE810 /* GEmaterial.m */,
+				37DDF4721B93CB32002FE810 /* GEmesh.h */,
+				37DDF4731B93CB32002FE810 /* GEmesh.m */,
+				37DDF4741B93CB32002FE810 /* GEtexture.h */,
+				37DDF4751B93CB32002FE810 /* GEtexture.m */,
+				37DDF4761B93CB32002FE810 /* GEtriangle.h */,
+				37DDF4771B93CB32002FE810 /* GEtriangle.m */,
+				37DDF4781B93CB32002FE810 /* GEvertex.h */,
+				37DDF4791B93CB32002FE810 /* GEvertex.m */,
+				37DDF47A1B93CB32002FE810 /* GEweight.h */,
+				37DDF47B1B93CB32002FE810 /* GEweight.m */,
+			);
+			name = "Object Support";
+			sourceTree = "<group>";
+		};
+		37DDF4851B93CD10002FE810 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF4891B93CD8E002FE810 /* GEanimation.h */,
+				37DDF48A1B93CD8E002FE810 /* GEanimation.m */,
+				37DDF4861B93CD1A002FE810 /* GEframe.h */,
+				37DDF4871B93CD1A002FE810 /* GEframe.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		37DDF48C1B93CDA9002FE810 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF48D1B93CDB4002FE810 /* GEanimatedmodel.h */,
+				37DDF48E1B93CDB4002FE810 /* GEanimatedmodel.m */,
+				37DDF48F1B93CDB4002FE810 /* GElight.h */,
+				37DDF4901B93CDB4002FE810 /* GElight.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		37DDF49F1B93CDF6002FE810 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37DDF4A01B93CE0B002FE810 /* GEfbo.h */,
+				37DDF4A11B93CE0B002FE810 /* GEfbo.m */,
+				37DDF4A21B93CE0B002FE810 /* GEfullscreen.h */,
+				37DDF4A31B93CE0B002FE810 /* GEfullscreen.m */,
+				37DDF4A41B93CE0B002FE810 /* GElayer.h */,
+				37DDF4A51B93CE0B002FE810 /* GElayer.m */,
+				37DDF4A61B93CE0B002FE810 /* GEview.h */,
+				37DDF4A71B93CE0B002FE810 /* GEview.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +531,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DDF4611B93CA88002FE810 /* hotwasser_512_512.png in Resources */,
+				37DDF4521B93CA33002FE810 /* blinn_phong.vsh in Resources */,
+				37DDF45F1B93CA72002FE810 /* Bob Lamp in Resources */,
+				37DDF4531B93CA33002FE810 /* color_shader.fsh in Resources */,
+				37DDF4591B93CA33002FE810 /* texture_shader.fsh in Resources */,
+				37DDF4561B93CA33002FE810 /* depth_shader.vsh in Resources */,
+				37DDF45A1B93CA33002FE810 /* texture_shader.vsh in Resources */,
+				37DDF4541B93CA33002FE810 /* color_shader.vsh in Resources */,
+				37DDF4551B93CA33002FE810 /* depth_shader.fsh in Resources */,
+				37DDF4581B93CA33002FE810 /* fullscreen_shader.vsh in Resources */,
 				37DDF4031B93AB35002FE810 /* Images.xcassets in Resources */,
+				37DDF4571B93CA33002FE810 /* fullscreen_shader.fsh in Resources */,
+				37DDF4511B93CA33002FE810 /* blinn_phong.fsh in Resources */,
 				37DDF4061B93AB35002FE810 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,15 +562,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DDF4921B93CDB4002FE810 /* GElight.m in Sources */,
+				37DDF47E1B93CB32002FE810 /* GEjoint.m in Sources */,
+				37DDF47C1B93CB32002FE810 /* GEbound.m in Sources */,
+				37DDF4A81B93CE0B002FE810 /* GEfbo.m in Sources */,
 				37DDF4431B93BE2F002FE810 /* GEupdatecaller.m in Sources */,
 				37DDF43B1B93BDC8002FE810 /* GMmain.m in Sources */,
 				37DDF42D1B93B1C8002FE810 /* NSDataAES256.m in Sources */,
+				37DDF4681B93CAE4002FE810 /* GEtextureshader.m in Sources */,
 				37DDF4011B93AB35002FE810 /* ViewController.m in Sources */,
+				37DDF4671B93CAE4002FE810 /* GEshader.m in Sources */,
+				37DDF4AB1B93CE0B002FE810 /* GEview.m in Sources */,
 				37DDF42C1B93B1C8002FE810 /* IHgamecenter.m in Sources */,
+				37DDF4841B93CB32002FE810 /* GEweight.m in Sources */,
 				37DDF42E1B93B1C8002FE810 /* Reachability.m in Sources */,
+				37DDF47F1B93CB32002FE810 /* GEmaterial.m in Sources */,
+				37DDF4811B93CB32002FE810 /* GEtexture.m in Sources */,
 				37DDF4231B93B0BD002FE810 /* WindowController.m in Sources */,
+				37DDF4801B93CB32002FE810 /* GEmesh.m in Sources */,
+				37DDF49C1B93CDDA002FE810 /* GEcolorshader.m in Sources */,
+				37DDF4881B93CD1A002FE810 /* GEframe.m in Sources */,
+				37DDF4911B93CDB4002FE810 /* GEanimatedmodel.m in Sources */,
+				37DDF48B1B93CD8E002FE810 /* GEanimation.m in Sources */,
+				37DDF49D1B93CDDA002FE810 /* GEdepthShader.m in Sources */,
+				37DDF4AA1B93CE0B002FE810 /* GElayer.m in Sources */,
+				37DDF49E1B93CDDA002FE810 /* GEfullscreenshader.m in Sources */,
+				37DDF4831B93CB32002FE810 /* GEvertex.m in Sources */,
+				37DDF4A91B93CE0B002FE810 /* GEfullscreen.m in Sources */,
 				37DDF3FE1B93AB35002FE810 /* main.m in Sources */,
 				37DDF3FC1B93AB35002FE810 /* AppDelegate.m in Sources */,
+				37DDF47D1B93CB32002FE810 /* GEboundingbox.m in Sources */,
+				37DDF49B1B93CDDA002FE810 /* GEblinnphongshader.m in Sources */,
+				37DDF4821B93CB32002FE810 /* GEtriangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

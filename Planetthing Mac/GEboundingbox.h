@@ -1,19 +1,24 @@
-#import "IHgamecenter.h"
-#import "GEupdatecaller.h"
-#import "GEview.h"
+#import "GEbound.h"
 
-@interface GMmain : NSObject <GEUpdateProtocol, GERenderProtocol>
+@interface GEBoundingbox : NSObject
 
 // -------------------------------------------- //
 // ---------------- Properties ---------------- //
 // -------------------------------------------- //
 #pragma mark Properties
-
+@property GEBound* Bound;
 
 // -------------------------------------------- //
 // ----------------- Singleton ---------------- //
 // -------------------------------------------- //
-#pragma mark Sngleton
+#pragma mark Singleton
 + (instancetype)sharedIntance;
+
+// -------------------------------------------- //
+// ------------------ Render ------------------ //
+// -------------------------------------------- //
+#pragma mark Render
+
+- (void)render;
 
 @end
