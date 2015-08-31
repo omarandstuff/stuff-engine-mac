@@ -97,7 +97,7 @@
 //    [m_testLayer addObject:model];
     
     m_fullScreen = [GEFullScreen sharedIntance];
-    m_texture = [GETexture textureWithFileName:@"hotwasser_512_512.png"];
+    m_texture = [GETexture textureWithFileName:@"Test.png"];
     m_fullScreen.TextureID = m_texture.TextureID;
 }
 

@@ -43,6 +43,8 @@
 
 - (void)render
 {
+
+    
     [m_updateCaller render];
 }
 
@@ -116,6 +118,9 @@ static CVReturn MyDisplayLinkCallback(CVDisplayLinkRef displayLink, const CVTime
     // Synchronize buffer swaps with vertical refresh rate
     GLint swapInt = 1;
     [[self openGLContext] setValues:&swapInt forParameter:NSOpenGLCPSwapInterval];
+    
+    glFrontFace(GL_CW);
+    glEnable(GL_CULL_FACE);
     
     [self viewDidLoad];
     

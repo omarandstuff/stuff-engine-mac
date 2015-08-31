@@ -56,6 +56,7 @@
 		37DDF4A91B93CE0B002FE810 /* GEfullscreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4A31B93CE0B002FE810 /* GEfullscreen.m */; };
 		37DDF4AA1B93CE0B002FE810 /* GElayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4A51B93CE0B002FE810 /* GElayer.m */; };
 		37DDF4AB1B93CE0B002FE810 /* GEview.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DDF4A71B93CE0B002FE810 /* GEview.m */; };
+		37DDF4E11B940B1A002FE810 /* Test.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DDF4E01B940B1A002FE810 /* Test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +157,7 @@
 		37DDF4A61B93CE0B002FE810 /* GEview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEview.h; path = "Planetthing Mac/GEview.h"; sourceTree = "<group>"; };
 		37DDF4A71B93CE0B002FE810 /* GEview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEview.m; path = "Planetthing Mac/GEview.m"; sourceTree = "<group>"; };
 		37DDF4AC1B93D66D002FE810 /* GEcommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GEcommon.h; path = "Planetthing Mac/GEcommon.h"; sourceTree = "<group>"; };
+		37DDF4E01B940B1A002FE810 /* Test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Test.png; path = "Planetthing Mac/Resources/Images/Test.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +355,7 @@
 		37DDF45D1B93CA55002FE810 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				37DDF4E01B940B1A002FE810 /* Test.png */,
 				37DDF4601B93CA88002FE810 /* hotwasser_512_512.png */,
 			);
 			name = Images;
@@ -543,6 +546,7 @@
 				37DDF4581B93CA33002FE810 /* fullscreen_shader.vsh in Resources */,
 				37DDF4031B93AB35002FE810 /* Images.xcassets in Resources */,
 				37DDF4571B93CA33002FE810 /* fullscreen_shader.fsh in Resources */,
+				37DDF4E11B940B1A002FE810 /* Test.png in Resources */,
 				37DDF4511B93CA33002FE810 /* blinn_phong.fsh in Resources */,
 				37DDF4061B93AB35002FE810 /* Main.storyboard in Resources */,
 			);
@@ -793,6 +797,7 @@
 				37DDF4171B93AB35002FE810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37DDF4181B93AB35002FE810 /* Build configuration list for PBXNativeTarget "Planetthing MacTests" */ = {
 			isa = XCConfigurationList;
@@ -801,6 +806,7 @@
 				37DDF41A1B93AB35002FE810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
